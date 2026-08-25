@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "product": "VNKitStudio",
+  "channel": "stable",
+  "version": "0.7.0",
+  "publishedAt": "2026-08-25T11:43:19.483Z",
+  "mandatory": false,
+  "notes": [
+    "VNKit Studio 0.7.0",
+    "간편 제작 사진 1~30장과 전체 장면 편집을 지원합니다.",
+    "화면 요소 직접 선택·이동·확대·축소·숨김·복제와 요소별 색상·불투명도 편집을 추가했습니다.",
+    "간편 편집 되돌리기·다시 실행, 선택별 장면 연결, 비노출 히든 루트와 오답 초기화를 지원합니다.",
+    "장면별 움직이는 이미지·BGM·사용자 글꼴과 부드러운 전환을 지원합니다.",
+    "SOOP 게시글 클릭 먹통과 중첩 iframe 경로, 갤러리 수집 호환성을 수정했습니다.",
+    "오너판 preview 및 라이선스 배포판 stable 자동 업데이트를 제공합니다."
+  ],
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.7.0",
+  "artifact": {
+    "variant": "distribution",
+    "platform": "win32",
+    "arch": "x64",
+    "kind": "portable",
+    "file": "VNKit-Studio-Distribution-0.7.0-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.7.0/VNKit-Studio-Distribution-0.7.0-x64.exe",
+    "size": 154692595,
+    "sha256": "bec68e386c74b8b6c40c8779bd9ca76d90d09d2b4d4171465868a3fc468ee0a5"
+  },
+  "signature": "ajGtUgIXTBAtFJLK6GCMQKgQ/TG9SW9afSZor9DyhcIITiyqh7PiEIG9cqkpGH8bIQFQ8SWVjHnhLqncJu2mDQ=="
+}
