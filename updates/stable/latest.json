@@ -2,27 +2,26 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.7.2",
-  "publishedAt": "2026-08-25T15:30:29.174Z",
+  "version": "0.8.1",
+  "publishedAt": "2026-08-25T17:21:44.291Z",
   "mandatory": false,
   "notes": [
-    "VNKit Studio 0.7.2",
-    "간편 장면 사진의 X/Y 이동과 빈 가장자리 방지 확대 보정을 미리보기·저장·게시 위젯에 연결했습니다.",
-    "카드 편집에는 실제 적용되는 색상만 표시하며, 오프닝 문구를 첫 대사로 복사하고 되돌릴 수 있습니다.",
-    "프로젝트·장면·간편 편집에서 Windows 설치 글꼴을 선택할 수 있습니다.",
-    "간편 히든 루트에서 여러 정답과 같은 선택지의 중복 순서를 구성할 수 있고, 중간 오답 시 조용히 초기화됩니다.",
-    "무설치 업데이트의 교체 후 자동 재실행과 실패 시 롤백을 보강하고 Owner·배포판 실제 EXE로 검증했습니다."
+    "VNKit Studio 0.8.1",
+    "오프닝 큰 제목과 설명이 자동 생성된 첫 대화에 즉시 연동되며, 첫 대화를 직접 고친 필드는 안전하게 독립 편집으로 전환됩니다.",
+    "Windows 설치 글꼴을 실제 CSS 패밀리로 읽어 편집 미리보기와 모든 장면, 게시 위젯에 동일하게 적용합니다.",
+    "고급 편집에서 대화창·이름표·선택지·배경·전경·캐릭터·글자를 화면에서 직접 이동·확대·축소·복제·숨김·잠금할 수 있습니다.",
+    "무설치 자동업데이트의 교체·자동 재실행·정상 부팅 확인·실패 롤백을 Owner와 Distribution 실제 EXE로 검증했습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.7.2",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.8.1",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.7.2-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.7.2/VNKit-Studio-Distribution-0.7.2-x64.exe",
-    "size": 154702130,
-    "sha256": "34145c36a5f83a82a51639a47c468e50f630b1aed78ea09cfb4fae17da8d3dbb"
+    "file": "VNKit-Studio-Distribution-0.8.1-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.8.1/VNKit-Studio-Distribution-0.8.1-x64.exe",
+    "size": 154718013,
+    "sha256": "c7a8caa3278579ac90314365b259ce69fa3a58fb2e9f3bd94239b9304a7fac8f"
   },
-  "signature": "Km36LRlhxAQApoWfakeWaOiRNGk0pBEWndKuOT1HnhtzjhOflxH4DeE5K0id8t/Z2KtW7U5QSLUfOitTYT31Dw=="
+  "signature": "LzgU89fH4Z6vs1+8RzBaONqA/E9cLr0lvz6k0ruYC2X7/Mydk9jM3UIRDqQ533OHe5vjyPwBfnkK4mXvrRklBw=="
 }
