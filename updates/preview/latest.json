@@ -2,28 +2,25 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "preview",
-  "version": "0.7.0",
-  "publishedAt": "2026-08-25T11:43:19.333Z",
+  "version": "0.7.1",
+  "publishedAt": "2026-08-25T13:35:35.328Z",
   "mandatory": false,
   "notes": [
-    "VNKit Studio 0.7.0",
-    "간편 제작 사진 1~30장과 전체 장면 편집을 지원합니다.",
-    "화면 요소 직접 선택·이동·확대·축소·숨김·복제와 요소별 색상·불투명도 편집을 추가했습니다.",
-    "간편 편집 되돌리기·다시 실행, 선택별 장면 연결, 비노출 히든 루트와 오답 초기화를 지원합니다.",
-    "장면별 움직이는 이미지·BGM·사용자 글꼴과 부드러운 전환을 지원합니다.",
-    "SOOP 게시글 클릭 먹통과 중첩 iframe 경로, 갤러리 수집 호환성을 수정했습니다.",
-    "오너판 preview 및 라이선스 배포판 stable 자동 업데이트를 제공합니다."
+    "VNKit Studio 0.7.1",
+    "SOOP 게시글과 갤러리에서 일부 장면 전환 뒤 클릭이 멈추거나 무한 로딩되던 GPU 합성 경로를 수정했습니다.",
+    "soft-wipe와 iris 장면 전환을 GPU 안정적인 opacity/transform 방식으로 바꾸고 실제 GPU 렌더러 회귀 검사를 추가했습니다.",
+    "무설치 업데이트 적용 뒤 자동 재실행 handshake와 한글 경로·PSModulePath 환경의 교체 안정성을 보강했습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.7.0",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.7.1",
   "artifact": {
     "variant": "owner",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Owner-0.7.0-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.7.0/VNKit-Studio-Owner-0.7.0-x64.exe",
-    "size": 154686565,
-    "sha256": "2d50671c2c45266ee9e1717ebda76e79224a37fab19f335127355c8d9a541a8b"
+    "file": "VNKit-Studio-Owner-0.7.1-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.7.1/VNKit-Studio-Owner-0.7.1-x64.exe",
+    "size": 154690429,
+    "sha256": "6814e2309e057e7abfd6e0035c51cda122b091990e5b40acae29fa8d32c3d2ee"
   },
-  "signature": "jQlPe9MMwEgFeJThHuA/B1ylAmIBtRbV21QiRteiQ5l4CfPe53O27BCwFm9xFCU4i+RCrgRooP1fw1kO3CmEDA=="
+  "signature": "qAtPqx/vNwyVoF3ogJuSjk7G1LBmGCt8LGV+d/xJEvcYwCk9xRh6/75llktOEBIbMezYwx8DjJ6comzS5QT2Ag=="
 }
