@@ -2,25 +2,24 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.0",
-  "publishedAt": "2026-08-26T07:57:10.000Z",
+  "version": "0.9.1",
+  "publishedAt": "2026-08-26T09:35:51.099Z",
   "mandatory": false,
   "notes": [
-    "30개 스타일 전면 개편과 대화·선택 UI 가독성 강화",
-    "고급편집 직접 이동·크기 조절·분기 흐름 UI 개편",
-    "대형 사진·GIF 편집 성능과 선택지 클릭 테스트 개선",
-    "포터블 업데이트 적용 후 자동 재실행 안정화"
+    "선택 결과가 정상 엔딩으로 자동 연결됩니다.",
+    "분기 사진 이어붙이기와 상단 카드 순서 변경을 추가했습니다.",
+    "게시글용 완성 위젯의 이미지 디코딩과 장면 전환 렉을 줄였습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.0",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.1",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.0-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.0/VNKit-Studio-Distribution-0.9.0-x64.exe",
-    "size": 154734140,
-    "sha256": "e8eeb48cfb8545e629b45d8f6edd3fa1c11d8974d6d7c90b2dda5336d008b23f"
+    "file": "VNKit-Studio-Distribution-0.9.1-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.1/VNKit-Studio-Distribution-0.9.1-x64.exe",
+    "size": 154742560,
+    "sha256": "7f9544be0435e6ecaf2cdda4f93ba4319ffa06cc86e8c34f7660d9c4436708d4"
   },
-  "signature": "lTP610P3OwBWGVu1X9izxgDGG3OgwqcYls3luP5IITA5D/htNwCdm3KUwDeqnGSvwywV5XUcm5vh5QhR3OY8CQ=="
+  "signature": "Vy/HJA/C/5Q+BX0PPPF5myopTc0dhAgSxARWqX4DYgsRo7V0dlvdTaGmc/RxkMFxuXz9TMlwQ8CkFoW5GG0yDw=="
 }
