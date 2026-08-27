@@ -2,25 +2,26 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.6",
-  "publishedAt": "2026-08-27T13:31:40.215Z",
+  "version": "0.9.7",
+  "publishedAt": "2026-08-27T15:48:01.302Z",
   "mandatory": false,
   "notes": [
-    "기존 완성형 30종은 그대로 보존하고 한국식·일본식·중립/시네마틱 신규 스타일 15종을 추가해 총 45종으로 확장했습니다.",
-    "신규 스타일마다 타이틀·대화·선택·이벤트·엔딩의 화면 문법을 다르게 구성하고 인물을 덜 가리는 낮은 대화창과 독립 선택 행을 적용했습니다.",
-    "신규 투명 장식 5종을 공개 위젯 번들에도 포함해 편집기 미리보기와 실제 SOOP 게시 결과의 분위기가 동일하게 유지됩니다.",
-    "45종 전체의 데스크톱·게시글·초소형·세로 화면과 긴 문구 조합 1,170개를 검수해 잘림·겹침·화면 이탈이 없음을 확인했습니다."
+    "직접 배치에 비율 유지·가로세로 중앙선·컨테이너 전체 이동·배경 사진 확대축소를 추가하고 마우스 놓기 멈춤 문제를 수정했습니다.",
+    "선택지 문구와 분기 카드·상단 흐름이 즉시 동기화되며 실제 문구를 가리지 않는 결과 열기 버튼과 긴 결과 문구 자동 줄바꿈을 적용했습니다.",
+    "이어받은 BGM이 녹음 대사 종료 뒤 같은 장면과 다음 장면에서 원래 곡과 음량으로 자동 복구됩니다.",
+    "게시 코드는 Windows 클립보드에 쓴 전체 문자열을 다시 읽어 검증하며 실패 시 수동 전체 복사를 제공합니다.",
+    "엔딩 배경은 약 3초간 흐려진 뒤 자동으로 선명해지고 엔딩 카드는 계속 유지됩니다. 45개 스타일 1,170개 화면 조합을 다시 검수했습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.6",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.7",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.6-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.6/VNKit-Studio-Distribution-0.9.6-x64.exe",
-    "size": 157645644,
-    "sha256": "1847b830ef7054d19773868a746b574c89825e655ba4f360a43213a2ca491cdc"
+    "file": "VNKit-Studio-Distribution-0.9.7-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.7/VNKit-Studio-Distribution-0.9.7-x64.exe",
+    "size": 157645833,
+    "sha256": "4753c3fa77378cf238419e07b4c5a4220ddafb0e55b4d872ee2bdeff1624df87"
   },
-  "signature": "hFYZQAmw2+Q1jBA8jdNtG8HLusgTx5NFN3Vh9P0tWOvSv9yShOSLnT1UUhu8r0VXx0rgquknuuiHnfj3AxSPAw=="
+  "signature": "Teik57CTd5/oNp1c/6FH+5ull8BO5i92Y1IM2epT2zYLKfJv7x+RKE5qoaqli2fkHfxzLrIloQZXgbYUBiTPDQ=="
 }
