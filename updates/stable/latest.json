@@ -2,25 +2,25 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.5",
-  "publishedAt": "2026-08-27T06:47:32.562Z",
+  "version": "0.9.6",
+  "publishedAt": "2026-08-27T13:31:40.215Z",
   "mandatory": false,
   "notes": [
-    "30개 완성형의 타이틀·대화·선택 구도를 다듬고 얼굴을 가리던 과대 패널과 과한 블러를 줄였습니다.",
-    "작은 SOOP 게시글에서 카드·문구·버튼이 잘리거나 겹치지 않도록 반응형 배치와 글자 줄바꿈을 보정했습니다.",
-    "공개 화면의 제작용 프레임 표시를 정리하고 선택지 스타일의 좌·중·우 구분을 강화했습니다.",
-    "고객용 Distribution stable만 공개 배포하도록 배포 검증과 출력 경로를 안전하게 고정했습니다."
+    "기존 완성형 30종은 그대로 보존하고 한국식·일본식·중립/시네마틱 신규 스타일 15종을 추가해 총 45종으로 확장했습니다.",
+    "신규 스타일마다 타이틀·대화·선택·이벤트·엔딩의 화면 문법을 다르게 구성하고 인물을 덜 가리는 낮은 대화창과 독립 선택 행을 적용했습니다.",
+    "신규 투명 장식 5종을 공개 위젯 번들에도 포함해 편집기 미리보기와 실제 SOOP 게시 결과의 분위기가 동일하게 유지됩니다.",
+    "45종 전체의 데스크톱·게시글·초소형·세로 화면과 긴 문구 조합 1,170개를 검수해 잘림·겹침·화면 이탈이 없음을 확인했습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.5",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.6",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.5-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.5/VNKit-Studio-Distribution-0.9.5-x64.exe",
-    "size": 154763547,
-    "sha256": "83ab7083fbba9a850da070ba0c944831deafc00f6611fb6f4064540064933b7e"
+    "file": "VNKit-Studio-Distribution-0.9.6-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.6/VNKit-Studio-Distribution-0.9.6-x64.exe",
+    "size": 157645644,
+    "sha256": "1847b830ef7054d19773868a746b574c89825e655ba4f360a43213a2ca491cdc"
   },
-  "signature": "FXi4x30EluyL7L5Z7hugSOwoA4PkLbCmdYW+SboZiCk0YrP09n2IFtvPUpjUCQT/7QKGnrGafP0ylVQSu2CoBA=="
+  "signature": "hFYZQAmw2+Q1jBA8jdNtG8HLusgTx5NFN3Vh9P0tWOvSv9yShOSLnT1UUhu8r0VXx0rgquknuuiHnfj3AxSPAw=="
 }
