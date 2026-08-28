@@ -2,26 +2,25 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.7",
-  "publishedAt": "2026-08-27T15:48:01.302Z",
+  "version": "0.9.8",
+  "publishedAt": "2026-08-28T06:19:38.159Z",
   "mandatory": false,
   "notes": [
-    "직접 배치에 비율 유지·가로세로 중앙선·컨테이너 전체 이동·배경 사진 확대축소를 추가하고 마우스 놓기 멈춤 문제를 수정했습니다.",
-    "선택지 문구와 분기 카드·상단 흐름이 즉시 동기화되며 실제 문구를 가리지 않는 결과 열기 버튼과 긴 결과 문구 자동 줄바꿈을 적용했습니다.",
-    "이어받은 BGM이 녹음 대사 종료 뒤 같은 장면과 다음 장면에서 원래 곡과 음량으로 자동 복구됩니다.",
-    "게시 코드는 Windows 클립보드에 쓴 전체 문자열을 다시 읽어 검증하며 실패 시 수동 전체 복사를 제공합니다.",
-    "엔딩 배경은 약 3초간 흐려진 뒤 자동으로 선명해지고 엔딩 카드는 계속 유지됩니다. 45개 스타일 1,170개 화면 조합을 다시 검수했습니다."
+    "앞 장면 음악 이어받기를 같은 값에서도 명시적으로 적용할 수 있게 하고, 장면 범위 음악도 원하는 다음 장면 한 곳까지 안전하게 이어지도록 수정했습니다.",
+    "실제 WAV 음원과 녹음 대사를 사용해 재생 완료·중간 넘김·연속 장면·자동재생 차단 뒤 클릭 복구를 검증했습니다.",
+    "오프닝·이벤트·엔딩의 위쪽 시네마틱 검은 줄 사이로 배경이 1px 비치던 현상을 제거했습니다.",
+    "0.9.7 고객판에서 0.9.8 고객판으로 실제 EXE 교체·재실행·정상 기동까지 자동업데이트 전 과정을 검증했습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.7",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.8",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.7-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.7/VNKit-Studio-Distribution-0.9.7-x64.exe",
-    "size": 157645833,
-    "sha256": "4753c3fa77378cf238419e07b4c5a4220ddafb0e55b4d872ee2bdeff1624df87"
+    "file": "VNKit-Studio-Distribution-0.9.8-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.8/VNKit-Studio-Distribution-0.9.8-x64.exe",
+    "size": 157646517,
+    "sha256": "4e9d51b1db69ebfe3d61d86403aaa86d1ff7e22a97a184b35662c77d167d3d4f"
   },
-  "signature": "Teik57CTd5/oNp1c/6FH+5ull8BO5i92Y1IM2epT2zYLKfJv7x+RKE5qoaqli2fkHfxzLrIloQZXgbYUBiTPDQ=="
+  "signature": "S258eNOdFOG+6t/1yMLIriK5CZftM+jeBPkmiiq2b1t4hGasLCQdXZx0zY2Ey8S5aDgqZF0YOB5PXoPgF45YBg=="
 }
