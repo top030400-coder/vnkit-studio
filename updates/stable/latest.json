@@ -2,25 +2,26 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.8",
-  "publishedAt": "2026-08-28T06:19:38.159Z",
+  "version": "0.9.9",
+  "publishedAt": "2026-08-28T09:03:47.419Z",
   "mandatory": false,
   "notes": [
-    "앞 장면 음악 이어받기를 같은 값에서도 명시적으로 적용할 수 있게 하고, 장면 범위 음악도 원하는 다음 장면 한 곳까지 안전하게 이어지도록 수정했습니다.",
-    "실제 WAV 음원과 녹음 대사를 사용해 재생 완료·중간 넘김·연속 장면·자동재생 차단 뒤 클릭 복구를 검증했습니다.",
-    "오프닝·이벤트·엔딩의 위쪽 시네마틱 검은 줄 사이로 배경이 1px 비치던 현상을 제거했습니다.",
-    "0.9.7 고객판에서 0.9.8 고객판으로 실제 EXE 교체·재실행·정상 기동까지 자동업데이트 전 과정을 검증했습니다."
+    "새 업데이트가 발견되면 고급 편집 하단 버튼이 NEW 표시와 함께 선명하게 강조되고, 세 번 반짝인 뒤에도 밝게 유지됩니다.",
+    "간편 제작 화면 상단에도 업데이트 버튼을 표시해 어디서든 같은 업데이트 창을 바로 열 수 있습니다.",
+    "적용 준비가 끝나면 녹색 지금 업데이트 상태로 바뀌며, 건너뛴 버전과 모션 줄이기 설정을 존중합니다.",
+    "앞 장면 음악 이어받기를 명시적으로 다시 적용할 수 있고 실제 오디오·편집·게시 경로까지 검증했습니다.",
+    "Electron 시각·클릭 QA와 실제 0.9.8에서 0.9.9로의 무설치 자동업데이트 적용을 검증했습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.8",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.9",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.8-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.8/VNKit-Studio-Distribution-0.9.8-x64.exe",
-    "size": 157646517,
-    "sha256": "4e9d51b1db69ebfe3d61d86403aaa86d1ff7e22a97a184b35662c77d167d3d4f"
+    "file": "VNKit-Studio-Distribution-0.9.9-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.9/VNKit-Studio-Distribution-0.9.9-x64.exe",
+    "size": 157648657,
+    "sha256": "35137463b2358694e6764d78764ed1e091de005508ff500ab6493f9c271a0d72"
   },
-  "signature": "S258eNOdFOG+6t/1yMLIriK5CZftM+jeBPkmiiq2b1t4hGasLCQdXZx0zY2Ey8S5aDgqZF0YOB5PXoPgF45YBg=="
+  "signature": "CrJ1eah+l5X7FXv/52tSxdjuJEmPEs8izO3J0DEPT/NNo7E94xXTCpzaCPIaB8uCv53StMws+wQsqGglFGUlDg=="
 }
