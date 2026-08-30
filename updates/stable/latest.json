@@ -2,25 +2,24 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.11",
-  "publishedAt": "2026-08-30T07:49:54.838Z",
+  "version": "0.9.12",
+  "publishedAt": "2026-08-30T08:53:39.241Z",
   "mandatory": false,
   "notes": [
-    "만들고 코드 복사의 진행·완료·실패 상태가 같은 창 안에 계속 표시됩니다.",
-    "Windows 클립보드의 일시적인 쓰기·확인 실패를 자동 재시도합니다.",
-    "게시 파일 1개당 허용 용량을 50 MiB로 확대했으며 전체 위젯은 80 MiB까지 지원합니다.",
-    "대용량 이미지·GIF의 파일 업로드 제한 시간을 5분으로 늘렸습니다."
+    "직접 녹음한 WebM/Opus 장면 음성을 클라우드 위젯에 정상 게시합니다.",
+    "정상 재부팅 뒤 라이선스를 유지하고 저장된 키를 자동 재확인합니다.",
+    "장치정보 복구와 인증 경쟁 조건을 보강했습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.11",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.12",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.11-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.11/VNKit-Studio-Distribution-0.9.11-x64.exe",
-    "size": 157651958,
-    "sha256": "0cc9bf4bd2a33af4cc22096e8101678fba918e56e21fd0fce86dce9f831958d8"
+    "file": "VNKit-Studio-Distribution-0.9.12-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.12/VNKit-Studio-Distribution-0.9.12-x64.exe",
+    "size": 157653151,
+    "sha256": "d52c224316494f3586c1197d05ea88118f44e957be420ca7725f6dc90a5e6578"
   },
-  "signature": "BDyPZ/NNMslP309FInMnLIc4IICQKGjZ9/r9quS1dS0bRGxtbXlW7NTfzyHudEm5DfIkmRZOki9hPL4IueiqDw=="
+  "signature": "2+3O1WvWsJ6JaUU0PIozfvTO7fDwMcjCfCe1oGSgx4s0aBmCe63PeIbi/zJzqkoNTmiTpNrSuo43yK2iyyZlAw=="
 }
