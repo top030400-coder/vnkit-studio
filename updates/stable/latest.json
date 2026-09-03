@@ -2,27 +2,26 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.13",
-  "publishedAt": "2026-09-03T13:53:58.107Z",
+  "version": "0.9.14",
+  "publishedAt": "2026-09-03T19:04:58.938Z",
   "mandatory": false,
   "notes": [
-    "작품 전체 문구 찾기·TSV 교환·제작 현황·분기와 엔딩 도달 검사를 추가했습니다.",
-    "조건·수치·시간 제한 선택지와 선택별 독립 결과 장면, 사진 이어 붙이기와 순서 변경을 지원합니다.",
-    "대사 기록·AUTO·관람 설정·이어보기·도달 엔딩 갤러리를 추가했습니다.",
-    "대용량 사진의 중복 전송·저장을 줄이고 사용이 끝난 이미지·전환·음성 자원을 정리해 완성본 성능을 높였습니다.",
-    "좁은 게시글의 긴 선택지와 관람 버튼 겹침, 연속 엔딩 도달 경로 표시를 보강했습니다.",
-    "게시글 이미지는 장변 최대 2560px로 유지하며 고객용 Distribution stable만 공개합니다."
+    "쉬운 편집에서 대사·선택지·이벤트 장면을 바로 추가할 수 있습니다.",
+    "선택지 장면에서는 적용할 갈래를 먼저 고른 뒤 그 갈래에만 새 장면을 연결합니다.",
+    "새 선택지와 추가 선택 버튼마다 서로 겹치지 않는 독립 결과 장면을 자동 생성합니다.",
+    "선택지 문구가 늦게 끝난 미리보기 렌더 때문에 이전 값으로 되돌아가던 문제를 수정했습니다.",
+    "일반 진행 순서, 엔딩의 마지막 위치, 숨김 경로와 자동 저장·재실행 호환을 유지했습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.13",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.14",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.13-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.13/VNKit-Studio-Distribution-0.9.13-x64.exe",
-    "size": 157703664,
-    "sha256": "95fa51812c2c06decb43a705e4012f2378d4fd4ed7d118989c7cf84afb3d76da"
+    "file": "VNKit-Studio-Distribution-0.9.14-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.14/VNKit-Studio-Distribution-0.9.14-x64.exe",
+    "size": 157706055,
+    "sha256": "0ddc4c20b3522e373542c838736daeb1644314b55f5eba5bfbf97593f73c47a7"
   },
-  "signature": "u2q1LwbRRJISCUSJZmdKZy8tRgt91HuNjPaSsQtq9G79Rl6X4SZDOySpk6xdXcmxvNgh3shkblTkkHxOcFsNAQ=="
+  "signature": "76w+W+6/XNWPDpPc6RjkuMy2AQU77NsxSUWhC1EZGcCxnekENcS6RrqQzpooILFemnKpKCogI8OomACUK+G/AQ=="
 }
