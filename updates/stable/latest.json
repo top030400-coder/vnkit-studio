@@ -2,26 +2,31 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.14",
-  "publishedAt": "2026-09-03T19:04:58.938Z",
+  "version": "0.9.15",
+  "publishedAt": "2026-09-05T17:08:08.525Z",
   "mandatory": false,
   "notes": [
-    "쉬운 편집에서 대사·선택지·이벤트 장면을 바로 추가할 수 있습니다.",
-    "선택지 장면에서는 적용할 갈래를 먼저 고른 뒤 그 갈래에만 새 장면을 연결합니다.",
-    "새 선택지와 추가 선택 버튼마다 서로 겹치지 않는 독립 결과 장면을 자동 생성합니다.",
-    "선택지 문구가 늦게 끝난 미리보기 렌더 때문에 이전 값으로 되돌아가던 문제를 수정했습니다.",
-    "일반 진행 순서, 엔딩의 마지막 위치, 숨김 경로와 자동 저장·재실행 호환을 유지했습니다."
+    "9월 6일 성능·제작 편의 통합 업데이트: 기존 작품과 45개 스타일 유지, 고객용 stable 전용입니다.",
+    "저장·열기 작업을 별도 워커로 분리하고, 반복 이미지·녹음 재전송과 전체 데이터 복사를 줄였습니다. 500장면 목록과 분기 지도는 필요한 부분을 우선 표시합니다.",
+    "연출 순서·스마트 배치·대본으로 장면 만들기·내 장면 보관함·저장 버전 비교 및 선택 복원을 추가했습니다.",
+    "기존 대본 표 편집, 분할·병합, 드래그 가능한 분기 지도, AND/OR 조건 편집, 인물 연기 타임라인과 연결 디자인 템플릿을 추가했습니다.",
+    "배역별 녹음 대기열과 영구 테이크 보관·듣기·적용, 파형 구간 편집·무음 정리·음량 맞추기를 지원합니다. 미사용 테이크는 게시물에서 제외합니다.",
+    "작품 자동 검수·경로 재현, 실측 프레임 지연 기반 자동 효과 조절, 다음 장면 로딩 대기·재시도·취소, 선택형 모바일 큰 글씨 읽기를 추가했습니다.",
+    "선택 목록 왼쪽 이동·부모 배율·드래그 실행취소/다시 실행/Esc 취소와 입력 중 실행취소를 보완했습니다. 늦게 도착한 이전 미리보기가 새 문구·위치·숨김을 덮는 문제를 차단했습니다.",
+    "작은 화면에서 긴 선택지를 하단 재생 메뉴가 가리던 문제를 수정하고 실제 메뉴 겹침 회귀 검사를 강화했습니다.",
+    "녹음 창 재열기 경합, 음성 재생 중 선택 타이머 조기 시작, BGM 음량 복귀, 다른 작품의 검수 결과·녹음 필터 혼입을 보완했습니다.",
+    "큰 파일 저장·게시 준비는 스트림과 임시 파일로 처리하고 취소 후 정리합니다. 4K 및 변경 파일만 재게시·업로드 이어하기는 포함하지 않으며 기존 게시 프로토콜을 유지합니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.14",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.15",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.14-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.14/VNKit-Studio-Distribution-0.9.14-x64.exe",
-    "size": 157706055,
-    "sha256": "0ddc4c20b3522e373542c838736daeb1644314b55f5eba5bfbf97593f73c47a7"
+    "file": "VNKit-Studio-Distribution-0.9.15-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.15/VNKit-Studio-Distribution-0.9.15-x64.exe",
+    "size": 157782583,
+    "sha256": "17459ff0d053293f8ef89f36ba19d751a60156662e4a3bbb735d095d41e25757"
   },
-  "signature": "76w+W+6/XNWPDpPc6RjkuMy2AQU77NsxSUWhC1EZGcCxnekENcS6RrqQzpooILFemnKpKCogI8OomACUK+G/AQ=="
+  "signature": "d+vZQoFgBcIFHxUYXfm+jSnAVl++mP1SZYOg9590eUEHNleN70ecJ7lfgcj3akCDbfCGrzhoIgtiMTQqWgNnBA=="
 }
