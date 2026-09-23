@@ -2,26 +2,24 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.16",
-  "publishedAt": "2026-09-05T18:57:52.589Z",
+  "version": "0.9.17",
+  "publishedAt": "2026-09-23T14:10:46.781Z",
   "mandatory": false,
   "notes": [
-    "선택 창·대화창 크기 조절 손잡이가 안쪽 문구에 가려 다른 요소가 움직이던 문제 수정",
-    "다른 이름 저장·프로젝트 전환 후 이전 게시 코드 잔존 방지, 게시 중 재열기·취소·복사 상태 안내 보완",
-    "제작 도구의 빠른 닫기·재열기와 시작 화면 중첩 경합 보완, 미적용 대본을 실행 중 최근 4작품·총 64MiB까지 임시 보관",
-    "매우 낮은 게시글의 편안한 읽기를 단일 스크롤로 개선하고 관람 도구와의 겹침 완화",
-    "기존 기능·45개 스타일 유지. 고객용 Distribution stable 전용이며 Owner는 공개하지 않습니다."
+    "장면 편집에 필름·포토카드 장식 표시 옵션 추가",
+    "장식만 숨기고 사진·대화창·선택지 및 기존 배치 유지",
+    "설정 저장·재열기·스타일 변경·게시용 위젯 반영"
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.16",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.17",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.16-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.16/VNKit-Studio-Distribution-0.9.16-x64.exe",
-    "size": 157784125,
-    "sha256": "f1b944252475339153d3e06a2c06b4746d1e24c4e0a6a76c0e3e20fff66c7817"
+    "file": "VNKit-Studio-Distribution-0.9.17-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.17/VNKit-Studio-Distribution-0.9.17-x64.exe",
+    "size": 157784100,
+    "sha256": "6ef22edc5258acfc53cb54d640a2e26db1ede785198fa9eff8041a35a934ddfb"
   },
-  "signature": "rhAoKCVt1/qP6dDzrziVoszlnXI7fbOouLPKn9ZZTcMECJ+XursfgYFl9xr5/0c3TrvPqrBeABWp7vvxT+fXBw=="
+  "signature": "bbEqODavJQ6DPRB326L9aX8tHwWyq1+ORgPkUbgVE8VI+X0uaPeb7jO7iscCC20II+2yFP+uCaZatB7p9YR0AQ=="
 }
