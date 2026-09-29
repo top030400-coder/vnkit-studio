@@ -2,24 +2,26 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.17",
-  "publishedAt": "2026-09-23T14:10:46.781Z",
+  "version": "0.9.18",
+  "publishedAt": "2026-09-29T07:20:01.661Z",
   "mandatory": false,
   "notes": [
-    "장면 편집에 필름·포토카드 장식 표시 옵션 추가",
-    "장식만 숨기고 사진·대화창·선택지 및 기존 배치 유지",
-    "설정 저장·재열기·스타일 변경·게시용 위젯 반영"
+    "딸각 자동완성 대본·분량 확장: 사진 10개 기준 분기 포함 45장면",
+    "전화·비밀폰·사진 터치·엔딩 인생네컷 특별 장면 추가",
+    "MP4·WebM 영상 배경과 용량 초과 시 원본 보존 압축 사본 선택",
+    "예시 인물 자동 삽입 정리, 저장·재열기·파일 가져오기 안정성 개선",
+    "선택창 이동 후 실행 취소·다시 실행 시 위치가 달라지던 문제 수정"
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.17",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.18",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.17-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.17/VNKit-Studio-Distribution-0.9.17-x64.exe",
-    "size": 157784100,
-    "sha256": "6ef22edc5258acfc53cb54d640a2e26db1ede785198fa9eff8041a35a934ddfb"
+    "file": "VNKit-Studio-Distribution-0.9.18-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.18/VNKit-Studio-Distribution-0.9.18-x64.exe",
+    "size": 156116107,
+    "sha256": "fcfae9a5e60e34829cf717e8f4dabd72f5b1303f86360a247b04664c512d57b2"
   },
-  "signature": "bbEqODavJQ6DPRB326L9aX8tHwWyq1+ORgPkUbgVE8VI+X0uaPeb7jO7iscCC20II+2yFP+uCaZatB7p9YR0AQ=="
+  "signature": "NQAwGsK6+hzMg8d7rPOjatXdoL0T4Z95oVzNUNXyHYcTHVRfOEE5CvcB/KSZB2LS+f3Y7/GeoObpfYf7YhOYDw=="
 }
