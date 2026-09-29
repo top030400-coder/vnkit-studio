@@ -2,26 +2,24 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.18",
-  "publishedAt": "2026-09-29T07:20:01.661Z",
+  "version": "0.9.19",
+  "publishedAt": "2026-09-29T08:19:31.809Z",
   "mandatory": false,
   "notes": [
-    "딸각 자동완성 대본·분량 확장: 사진 10개 기준 분기 포함 45장면",
-    "전화·비밀폰·사진 터치·엔딩 인생네컷 특별 장면 추가",
-    "MP4·WebM 영상 배경과 용량 초과 시 원본 보존 압축 사본 선택",
-    "예시 인물 자동 삽입 정리, 저장·재열기·파일 가져오기 안정성 개선",
-    "선택창 이동 후 실행 취소·다시 실행 시 위치가 달라지던 문제 수정"
+    "압축 전 용량 차단 수정 및 게시 대상 용량 표시 개선",
+    "보관 사진 한도 분리·생성 대기 사진 저장 복원·원본 보존",
+    "게시글과 전체 미리보기 장면 전환 처리 및 다음 사진 준비 개선"
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.18",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.19",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.18-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.18/VNKit-Studio-Distribution-0.9.18-x64.exe",
-    "size": 156116107,
-    "sha256": "fcfae9a5e60e34829cf717e8f4dabd72f5b1303f86360a247b04664c512d57b2"
+    "file": "VNKit-Studio-Distribution-0.9.19-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.19/VNKit-Studio-Distribution-0.9.19-x64.exe",
+    "size": 156113979,
+    "sha256": "4a48e483b6e4af310a06da71a24665d037239465af67e32bd84b66f5b28a08fb"
   },
-  "signature": "NQAwGsK6+hzMg8d7rPOjatXdoL0T4Z95oVzNUNXyHYcTHVRfOEE5CvcB/KSZB2LS+f3Y7/GeoObpfYf7YhOYDw=="
+  "signature": "IgDImlyr1dWRSgjjSKrHanfni2Ei35mmqfmTNENmGisD1lpMhbr083h5X+5lDz3au6WU2cywm7A3pfG7tKp1DA=="
 }
