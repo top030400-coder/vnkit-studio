@@ -2,24 +2,29 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.19",
-  "publishedAt": "2026-09-29T08:19:31.809Z",
+  "version": "0.9.20",
+  "publishedAt": "2026-10-09T03:19:11.137Z",
   "mandatory": false,
   "notes": [
-    "압축 전 용량 차단 수정 및 게시 대상 용량 표시 개선",
-    "보관 사진 한도 분리·생성 대기 사진 저장 복원·원본 보존",
-    "게시글과 전체 미리보기 장면 전환 처리 및 다음 사진 준비 개선"
+    "편집창과 전체 미리보기의 대화창·글꼴 배치 불일치 수정",
+    "작은 게시물에서 계속 버튼이 다시 시작 버튼에 가리는 문제 수정",
+    "작은 편집창 이미지 캐시 한도 복구 및 창 축소 시 정리",
+    "비밀폰 음성 다시 듣기·이어 듣기·오류 재시도 개선",
+    "320px 읽기 메뉴 버튼 확대 및 대사·선택지 겹침 보정",
+    "좁은 간편 편집창의 상단 버튼 글자 넘침 수정",
+    "기존 게시글 플레이어 수정은 업데이트 후 다시 게시해야 적용됩니다.",
+    "기존 제한: 320×180 일반 읽기의 일부 스타일에서 선택지5개를 배치하면 짧은 문구여도 마지막 버튼 하단이 일부 잘릴 수 있습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.19",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.20",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.19-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.19/VNKit-Studio-Distribution-0.9.19-x64.exe",
-    "size": 156113979,
-    "sha256": "4a48e483b6e4af310a06da71a24665d037239465af67e32bd84b66f5b28a08fb"
+    "file": "VNKit-Studio-Distribution-0.9.20-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.20/VNKit-Studio-Distribution-0.9.20-x64.exe",
+    "size": 156113329,
+    "sha256": "9d2017ba2cd94a589f42eaed5ec1f04f1e6f3746160a7d6e309d3dda0241f6dd"
   },
-  "signature": "IgDImlyr1dWRSgjjSKrHanfni2Ei35mmqfmTNENmGisD1lpMhbr083h5X+5lDz3au6WU2cywm7A3pfG7tKp1DA=="
+  "signature": "qcDXm267evF7qv12ev+tMzS4TwBoLsJJZzLV65IMTHXYHoDu/SMf6botHvJOL/jLrpBLDow2zFw5ozsEdaRwCw=="
 }
