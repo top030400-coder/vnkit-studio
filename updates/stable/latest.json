@@ -2,29 +2,29 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.20",
-  "publishedAt": "2026-10-09T03:19:11.137Z",
+  "version": "0.9.21",
+  "publishedAt": "2026-10-13T04:22:11.880Z",
   "mandatory": false,
   "notes": [
-    "편집창과 전체 미리보기의 대화창·글꼴 배치 불일치 수정",
-    "작은 게시물에서 계속 버튼이 다시 시작 버튼에 가리는 문제 수정",
-    "작은 편집창 이미지 캐시 한도 복구 및 창 축소 시 정리",
-    "비밀폰 음성 다시 듣기·이어 듣기·오류 재시도 개선",
-    "320px 읽기 메뉴 버튼 확대 및 대사·선택지 겹침 보정",
-    "좁은 간편 편집창의 상단 버튼 글자 넘침 수정",
-    "기존 게시글 플레이어 수정은 업데이트 후 다시 게시해야 적용됩니다.",
-    "기존 제한: 320×180 일반 읽기의 일부 스타일에서 선택지5개를 배치하면 짧은 문구여도 마지막 버튼 하단이 일부 잘릴 수 있습니다."
+    "짧은 대사인데 화면 대부분을 가리던 기본 프리셋 10종의 대화창 크기 수정",
+    "기본 말풍선 스킨 6종의 세로 늘어짐 수정 및 원본 비율 유지",
+    "이름표 분리·장문 배치·스킨 없는 이름표 대비와 편집/재생 간격 차이 개선",
+    "고급 편집의 전체 스타일 전환에 이전 간편 제작 배치가 남던 문제 수정",
+    "캐릭터 이름 연동·시청자 이름 입력·스타일 선택 시 입력 이름 보존 수정",
+    "기존 수동 배치·직접 지정한 화자·대사·선택지·사진·녹음 보존",
+    "기존 게시글은 업데이트 후 다시 게시하고 게시글 코드를 교체해야 적용됩니다.",
+    "기존 제한: 320×180 일반 읽기의 일부 스타일에서 선택지 5개 마지막 버튼 하단이 일부 잘릴 수 있습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.20",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.21",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.20-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.20/VNKit-Studio-Distribution-0.9.20-x64.exe",
-    "size": 156113329,
-    "sha256": "9d2017ba2cd94a589f42eaed5ec1f04f1e6f3746160a7d6e309d3dda0241f6dd"
+    "file": "VNKit-Studio-Distribution-0.9.21-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.21/VNKit-Studio-Distribution-0.9.21-x64.exe",
+    "size": 156113590,
+    "sha256": "b2e6a5b4cfa10869610ccded57fbbfef18593e30240843eee7e125004624d5a2"
   },
-  "signature": "qcDXm267evF7qv12ev+tMzS4TwBoLsJJZzLV65IMTHXYHoDu/SMf6botHvJOL/jLrpBLDow2zFw5ozsEdaRwCw=="
+  "signature": "i4I4iqFoYrflI4DUi3Mtd7jDUMPHUsXqT5V/0GXGg/IqiTnHtlUbUtjWw2lZFARrL8iTwOnYrv2Ewrugkt0vBA=="
 }
