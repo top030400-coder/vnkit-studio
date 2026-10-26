@@ -2,29 +2,30 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.21",
-  "publishedAt": "2026-10-13T04:22:11.880Z",
+  "version": "0.9.22",
+  "publishedAt": "2026-10-26T09:44:14.457Z",
   "mandatory": false,
   "notes": [
-    "짧은 대사인데 화면 대부분을 가리던 기본 프리셋 10종의 대화창 크기 수정",
-    "기본 말풍선 스킨 6종의 세로 늘어짐 수정 및 원본 비율 유지",
-    "이름표 분리·장문 배치·스킨 없는 이름표 대비와 편집/재생 간격 차이 개선",
-    "고급 편집의 전체 스타일 전환에 이전 간편 제작 배치가 남던 문제 수정",
-    "캐릭터 이름 연동·시청자 이름 입력·스타일 선택 시 입력 이름 보존 수정",
-    "기존 수동 배치·직접 지정한 화자·대사·선택지·사진·녹음 보존",
+    "통화 뒤 메시지가 밝은 말풍선과 겹쳐 보이지 않던 글자색 문제 수정",
+    "게시글 폭에서 예전 세로형 대화창으로 돌아가던 프리셋 10종의 배치 수정",
+    "작은 화면에서 넘치는 대사를 휠·터치·키보드로 끝까지 읽는 본문 스크롤 지원",
+    "스크롤 본문 클릭으로 장면이 넘어가지 않도록 보완: 다음 장면은 계속 버튼으로 이동",
+    "작은 화면의 읽기 메뉴가 스크롤 본문 글자를 가리는 문제 보완",
+    "직접 지정한 글자색·사용자 스킨·저장 좌표·장면 연결 유지",
     "기존 게시글은 업데이트 후 다시 게시하고 게시글 코드를 교체해야 적용됩니다.",
+    "일부 구버전 수동 작품의 이름표 위치 차이와 일부 프리셋의 장면별 수치 배치 미반영은 별도 확인이 필요한 기존 사항입니다.",
     "기존 제한: 320×180 일반 읽기의 일부 스타일에서 선택지 5개 마지막 버튼 하단이 일부 잘릴 수 있습니다."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.21",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.22",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.21-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.21/VNKit-Studio-Distribution-0.9.21-x64.exe",
-    "size": 156113590,
-    "sha256": "b2e6a5b4cfa10869610ccded57fbbfef18593e30240843eee7e125004624d5a2"
+    "file": "VNKit-Studio-Distribution-0.9.22-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.22/VNKit-Studio-Distribution-0.9.22-x64.exe",
+    "size": 156116037,
+    "sha256": "beee4bc5bff12aeaa5b20cff65fd97e6da6d98cf2103f18546547a3724cd1954"
   },
-  "signature": "i4I4iqFoYrflI4DUi3Mtd7jDUMPHUsXqT5V/0GXGg/IqiTnHtlUbUtjWw2lZFARrL8iTwOnYrv2Ewrugkt0vBA=="
+  "signature": "Ys7ZgSp8I6xFKjADaHvEip0+GwEMgWXs3O+BzhHsuTrTl+JzminevRuxAoBnGm/onyYItyx5o/v3dFXHS4xwBA=="
 }
