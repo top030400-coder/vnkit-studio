@@ -2,30 +2,30 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.22",
-  "publishedAt": "2026-10-26T09:44:14.457Z",
+  "version": "0.9.23",
+  "publishedAt": "2026-11-10T18:31:07.063Z",
   "mandatory": false,
   "notes": [
-    "통화 뒤 메시지가 밝은 말풍선과 겹쳐 보이지 않던 글자색 문제 수정",
-    "게시글 폭에서 예전 세로형 대화창으로 돌아가던 프리셋 10종의 배치 수정",
-    "작은 화면에서 넘치는 대사를 휠·터치·키보드로 끝까지 읽는 본문 스크롤 지원",
-    "스크롤 본문 클릭으로 장면이 넘어가지 않도록 보완: 다음 장면은 계속 버튼으로 이동",
-    "작은 화면의 읽기 메뉴가 스크롤 본문 글자를 가리는 문제 보완",
-    "직접 지정한 글자색·사용자 스킨·저장 좌표·장면 연결 유지",
-    "기존 게시글은 업데이트 후 다시 게시하고 게시글 코드를 교체해야 적용됩니다.",
-    "일부 구버전 수동 작품의 이름표 위치 차이와 일부 프리셋의 장면별 수치 배치 미반영은 별도 확인이 필요한 기존 사항입니다.",
-    "기존 제한: 320×180 일반 읽기의 일부 스타일에서 선택지 5개 마지막 버튼 하단이 일부 잘릴 수 있습니다."
+    "다른 작성 중인 장면의 연결이 비어 있어 새 장면 추가까지 막히던 오류 수정",
+    "연결 없는 마지막 대사 뒤에 추가할 때 새 장면과 엔딩을 함께 연결하도록 보완",
+    "장면 추가에 ‘선택 결과 뒤 공통 장면’ 추가: 각 선택의 결과 대사 이후 하나의 공통 대사·이벤트로 연결",
+    "선택별 엔딩이 다르면 공통 장면 다음 엔딩을 직접 선택하고, 나머지 엔딩은 프로젝트에 보관",
+    "공통 장면 삭제 후 선택지 재추가와 기존 선택 삭제·실행 취소 과정의 분기 연결 보완",
+    "대사·문구 입력칸을 상단으로 이동하고 입력칸 옆 이전·다음 장면 이동 버튼 추가",
+    "장면 정보·글꼴·작품 설정·위치/색상·사진·BGM·더빙 메뉴 접기 및 같은 PC에서 열림 상태 기억",
+    "좁거나 높이가 낮은 편집 창에서 대사 입력칸이 아래로 밀리거나 하단 메뉴에 가리던 문제 보완",
+    "기존 작품은 그대로 이어서 편집할 수 있으며, 수정한 내용을 기존 게시글에 반영하려면 다시 게시하고 코드를 교체해 주세요."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.22",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.23",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.22-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.22/VNKit-Studio-Distribution-0.9.22-x64.exe",
-    "size": 156116037,
-    "sha256": "beee4bc5bff12aeaa5b20cff65fd97e6da6d98cf2103f18546547a3724cd1954"
+    "file": "VNKit-Studio-Distribution-0.9.23-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.23/VNKit-Studio-Distribution-0.9.23-x64.exe",
+    "size": 156121101,
+    "sha256": "331a2645575c588bcdcbfdd46ca78631f5464eb38d3aac1c440f10103a9c2755"
   },
-  "signature": "Ys7ZgSp8I6xFKjADaHvEip0+GwEMgWXs3O+BzhHsuTrTl+JzminevRuxAoBnGm/onyYItyx5o/v3dFXHS4xwBA=="
+  "signature": "y4enfQaZ4EeG0z6DaBP4nbLvIOuit8rU1upJMOX9iPPZVHpEONUOJPoo4lrIPTiPq6iV4TC0q+tPAo8ViataBw=="
 }
