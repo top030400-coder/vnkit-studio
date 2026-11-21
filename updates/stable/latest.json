@@ -2,30 +2,29 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.23",
-  "publishedAt": "2026-11-10T18:31:07.063Z",
+  "version": "0.9.24",
+  "publishedAt": "2026-11-21T09:50:54.545Z",
   "mandatory": false,
   "notes": [
-    "다른 작성 중인 장면의 연결이 비어 있어 새 장면 추가까지 막히던 오류 수정",
-    "연결 없는 마지막 대사 뒤에 추가할 때 새 장면과 엔딩을 함께 연결하도록 보완",
-    "장면 추가에 ‘선택 결과 뒤 공통 장면’ 추가: 각 선택의 결과 대사 이후 하나의 공통 대사·이벤트로 연결",
-    "선택별 엔딩이 다르면 공통 장면 다음 엔딩을 직접 선택하고, 나머지 엔딩은 프로젝트에 보관",
-    "공통 장면 삭제 후 선택지 재추가와 기존 선택 삭제·실행 취소 과정의 분기 연결 보완",
-    "대사·문구 입력칸을 상단으로 이동하고 입력칸 옆 이전·다음 장면 이동 버튼 추가",
-    "장면 정보·글꼴·작품 설정·위치/색상·사진·BGM·더빙 메뉴 접기 및 같은 PC에서 열림 상태 기억",
-    "좁거나 높이가 낮은 편집 창에서 대사 입력칸이 아래로 밀리거나 하단 메뉴에 가리던 문제 보완",
-    "기존 작품은 그대로 이어서 편집할 수 있으며, 수정한 내용을 기존 게시글에 반영하려면 다시 게시하고 코드를 교체해 주세요."
+    "특별 장면 추가·수정의 사진 속 선택에서 기존 영역 추가·삭제 지원",
+    "간편·고급 편집에서 추가한 선택지가 사진 위에 표시되지 않던 오류 수정",
+    "선택지만 있고 사진 클릭 영역이 빠진 기존 저장 작품 자동 복구",
+    "선택 문구와 질문 수정이 사진 미리보기에 즉시 반영되도록 개선",
+    "영역 위치·크기·결과 연결 및 저장·재열기·실행 취소 보존",
+    "결과 장면을 아직 연결하지 않은 선택지도 이름과 영역 위치 편집 가능",
+    "새 결과 장면의 특별 연출 중복과 삭제한 선택의 히든 루트 연결 처리 보완",
+    "기존 게시글에 수정 내용을 반영하려면 다시 게시하고 게시글 코드를 교체해 주세요."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.23",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.24",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.23-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.23/VNKit-Studio-Distribution-0.9.23-x64.exe",
-    "size": 156121101,
-    "sha256": "331a2645575c588bcdcbfdd46ca78631f5464eb38d3aac1c440f10103a9c2755"
+    "file": "VNKit-Studio-Distribution-0.9.24-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.24/VNKit-Studio-Distribution-0.9.24-x64.exe",
+    "size": 156129512,
+    "sha256": "e7ffc62b2b101827f7a59c853820657da826d07fc5f0f9fdb92f44199a6dcad0"
   },
-  "signature": "y4enfQaZ4EeG0z6DaBP4nbLvIOuit8rU1upJMOX9iPPZVHpEONUOJPoo4lrIPTiPq6iV4TC0q+tPAo8ViataBw=="
+  "signature": "3uZ5fQnFIVFKivSGl7CnwqBUCN5GVIP19NHjdq16nLkKYzX3fKZyugFk6JjvPHouW9N2otc96gxuMEdIL0oeBA=="
 }
