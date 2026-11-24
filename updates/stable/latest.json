@@ -2,28 +2,26 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.25",
-  "publishedAt": "2026-11-24T08:38:56.486Z",
+  "version": "0.9.26",
+  "publishedAt": "2026-11-24T09:20:21.679Z",
   "mandatory": false,
   "notes": [
-    "장면 삭제 후 대사 입력을 바로 이어갈 수 있도록 개선했습니다.",
-    "자동저장한 작품을 다시 열 때 삭제 후 수정한 대사가 이전 문구로 돌아가는 오류를 수정했습니다.",
-    "간편 편집의 장면 추가에 챕터를 추가했습니다.",
-    "고급 편집에서 추가한 장면이 간편 편집 목록에 보이도록 수정했습니다.",
-    "첫 챕터에서 마우스로 다음 장면으로 넘어갈 수 있도록 수정했습니다.",
-    "좁은 재생 화면에서 선택 결과의 호감도 표시가 숨겨지던 문제를 수정했습니다.",
-    "기존 게시글에 재생 화면 수정을 적용하려면 다시 게시하고 게시글 코드를 교체해 주세요."
+    "전체 미리보기와 게시글에서 선택지 버튼이 위로 밀려 질문을 가리는 문제를 수정했습니다.",
+    "좁은 게시글에서 선택지 네 개가 한 줄씩 표시될 때도 질문과 버튼을 함께 읽을 수 있도록 개선했습니다.",
+    "재생 메뉴가 선택지 버튼을 가려 클릭하기 어려웠던 문제를 수정했습니다.",
+    "일부 스타일에서 호감도 수치가 챕터 카드에 가려지거나 어두운 사진에서 잘 보이지 않는 문제를 수정했습니다.",
+    "이미 게시한 작품에 적용하려면 앱 업데이트 후 작품을 다시 게시하고 게시글 코드를 교체해 주세요."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.25",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.26",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.25-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.25/VNKit-Studio-Distribution-0.9.25-x64.exe",
-    "size": 156129626,
-    "sha256": "fcd29e1ceb030d1aa71d169b79bb9ba00e26361745740b911131df4eb138c077"
+    "file": "VNKit-Studio-Distribution-0.9.26-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.26/VNKit-Studio-Distribution-0.9.26-x64.exe",
+    "size": 156128925,
+    "sha256": "445ba4044e83b54ef119ed7916921172d7ca2f165e8fdf981919621bf4490b0e"
   },
-  "signature": "1oh/Z3goZpzcoB/+0egqPaSuIEEW149f3/rAqwPOuu/o5L9+LPuAZM4X0V211VjZ8eafrM8fYHYW3AhXybOjCw=="
+  "signature": "miRToSj2Pl2ORhg6A/T2nqlwcGR+e9QCsvI7swnLBkJGoQ0Aito0Cbf+fkRTVboz3wXEkfPOzSPE63msB4noDQ=="
 }
