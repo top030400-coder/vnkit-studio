@@ -2,29 +2,28 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.24",
-  "publishedAt": "2026-11-21T09:50:54.545Z",
+  "version": "0.9.25",
+  "publishedAt": "2026-11-24T08:38:56.486Z",
   "mandatory": false,
   "notes": [
-    "특별 장면 추가·수정의 사진 속 선택에서 기존 영역 추가·삭제 지원",
-    "간편·고급 편집에서 추가한 선택지가 사진 위에 표시되지 않던 오류 수정",
-    "선택지만 있고 사진 클릭 영역이 빠진 기존 저장 작품 자동 복구",
-    "선택 문구와 질문 수정이 사진 미리보기에 즉시 반영되도록 개선",
-    "영역 위치·크기·결과 연결 및 저장·재열기·실행 취소 보존",
-    "결과 장면을 아직 연결하지 않은 선택지도 이름과 영역 위치 편집 가능",
-    "새 결과 장면의 특별 연출 중복과 삭제한 선택의 히든 루트 연결 처리 보완",
-    "기존 게시글에 수정 내용을 반영하려면 다시 게시하고 게시글 코드를 교체해 주세요."
+    "장면 삭제 후 대사 입력을 바로 이어갈 수 있도록 개선했습니다.",
+    "자동저장한 작품을 다시 열 때 삭제 후 수정한 대사가 이전 문구로 돌아가는 오류를 수정했습니다.",
+    "간편 편집의 장면 추가에 챕터를 추가했습니다.",
+    "고급 편집에서 추가한 장면이 간편 편집 목록에 보이도록 수정했습니다.",
+    "첫 챕터에서 마우스로 다음 장면으로 넘어갈 수 있도록 수정했습니다.",
+    "좁은 재생 화면에서 선택 결과의 호감도 표시가 숨겨지던 문제를 수정했습니다.",
+    "기존 게시글에 재생 화면 수정을 적용하려면 다시 게시하고 게시글 코드를 교체해 주세요."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.24",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.25",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.24-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.24/VNKit-Studio-Distribution-0.9.24-x64.exe",
-    "size": 156129512,
-    "sha256": "e7ffc62b2b101827f7a59c853820657da826d07fc5f0f9fdb92f44199a6dcad0"
+    "file": "VNKit-Studio-Distribution-0.9.25-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.25/VNKit-Studio-Distribution-0.9.25-x64.exe",
+    "size": 156129626,
+    "sha256": "fcd29e1ceb030d1aa71d169b79bb9ba00e26361745740b911131df4eb138c077"
   },
-  "signature": "3uZ5fQnFIVFKivSGl7CnwqBUCN5GVIP19NHjdq16nLkKYzX3fKZyugFk6JjvPHouW9N2otc96gxuMEdIL0oeBA=="
+  "signature": "1oh/Z3goZpzcoB/+0egqPaSuIEEW149f3/rAqwPOuu/o5L9+LPuAZM4X0V211VjZ8eafrM8fYHYW3AhXybOjCw=="
 }
