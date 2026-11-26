@@ -2,26 +2,26 @@
   "schemaVersion": 1,
   "product": "VNKitStudio",
   "channel": "stable",
-  "version": "0.9.26",
-  "publishedAt": "2026-11-24T09:20:21.679Z",
+  "version": "0.9.27",
+  "publishedAt": "2026-11-26T05:16:41.452Z",
   "mandatory": false,
   "notes": [
-    "전체 미리보기와 게시글에서 선택지 버튼이 위로 밀려 질문을 가리는 문제를 수정했습니다.",
-    "좁은 게시글에서 선택지 네 개가 한 줄씩 표시될 때도 질문과 버튼을 함께 읽을 수 있도록 개선했습니다.",
-    "재생 메뉴가 선택지 버튼을 가려 클릭하기 어려웠던 문제를 수정했습니다.",
-    "일부 스타일에서 호감도 수치가 챕터 카드에 가려지거나 어두운 사진에서 잘 보이지 않는 문제를 수정했습니다.",
-    "이미 게시한 작품에 적용하려면 앱 업데이트 후 작품을 다시 게시하고 게시글 코드를 교체해 주세요."
+    "작품이나 개별 장면에 직접 넣은 글꼴 때문에 클라우드 게시가 실패하는 문제를 수정했습니다. 장면에서 기본 글꼴로 되돌린 뒤에는 사용하지 않는 글꼴을 게시 파일에서 제외했습니다.",
+    "MP4·WebM 배경 영상이 들어간 작품을 게시할 수 있도록 게시 서버의 영상 처리를 수정했습니다.",
+    "예전 프로젝트에 포함된 샘플 사진과 장식 때문에 게시가 막히는 문제를 수정했습니다. BMP 사진은 게시할 때 PNG로 변환하며 프로젝트의 원본 사진은 유지했습니다.",
+    "게시 서버가 파일을 거절하면 해당 파일의 종류를 오류 메시지에 표시하도록 개선했습니다.",
+    "게시가 실패했던 작품은 업데이트 후 기존 프로젝트를 열고 ‘게시글 코드 만들기’를 다시 눌러 주세요."
   ],
-  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.26",
+  "releasePage": "https://github.com/top030400-coder/vnkit-studio/releases/tag/v0.9.27",
   "artifact": {
     "variant": "distribution",
     "platform": "win32",
     "arch": "x64",
     "kind": "portable",
-    "file": "VNKit-Studio-Distribution-0.9.26-x64.exe",
-    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.26/VNKit-Studio-Distribution-0.9.26-x64.exe",
-    "size": 156128925,
-    "sha256": "445ba4044e83b54ef119ed7916921172d7ca2f165e8fdf981919621bf4490b0e"
+    "file": "VNKit-Studio-Distribution-0.9.27-x64.exe",
+    "url": "https://github.com/top030400-coder/vnkit-studio/releases/download/v0.9.27/VNKit-Studio-Distribution-0.9.27-x64.exe",
+    "size": 156141674,
+    "sha256": "bfca61c87ed5f0bcaecaaa07013f9b7ae178d7c7b43d9fba8ebe17facddc0fa5"
   },
-  "signature": "miRToSj2Pl2ORhg6A/T2nqlwcGR+e9QCsvI7swnLBkJGoQ0Aito0Cbf+fkRTVboz3wXEkfPOzSPE63msB4noDQ=="
+  "signature": "DJviInnKN4AxsF7q7rBxTIlxyfPf2lBhB5FLu4QHGmEydgCFuDpVxREvfYBtubhL19QuO7Ibj4UZUDJG4YmyAg=="
 }
